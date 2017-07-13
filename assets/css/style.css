@@ -1,0 +1,100 @@
+		body {
+  			background-image: url(https://static.pexels.com/photos/57858/pexels-photo-57858.jpeg);
+  			padding: 10px 10px 10px 10px;
+ 			height: 100%;
+ 			width: 90%;
+ 			left: 0;
+ 			right:0;
+ 			top: 0;
+ 			z-index: 0;
+ 			position: fixed;
+		}
+		h1.name{
+			text-align: center;
+			color:4aaaa5;
+			font-weight: 900;
+			font-size: x-large;
+			opacity: 1;
+		}
+		div.intro{
+			display: block;
+			color:white;
+			font-size: large;
+			background-color: #333333;
+			padding: 20px 100px 20px 100px;
+			margin: auto;
+		}
+		div.links{
+			margin: 0 auto; 
+			text-align: center; 
+			font-weight: bold;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			z-index: 10;
+			padding-bottom: 20px;
+		}
+
+		div.foodList{
+			float: left;
+		}
+		div.techProf{
+			float: right;
+		}
+
+		ul.link {
+			list-style-type: none;
+			padding: 10;
+			overflow: hidden;
+			background-color: #333333;
+			width: 18%;
+    		margin: auto;
+
+		}
+		ul.list {
+			list-style-type: none;
+			padding: 10;
+			overflow: hidden;
+			background-color: #333333;
+			width: 20%;
+    		margin: auto;
+
+		}
+
+		li.link {
+			float: left;
+		}
+
+		li a {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+
+		li.list {
+			display: block;
+			color: white;
+			text-align: center;
+			padding: 16px;
+			text-decoration: none;
+		}
+		li.Hlist {
+			display: block;
+			color: red;
+			text-align: left;
+			padding: 8px;
+			text-decoration: none;
+			font-size: x-large;
+		}
+		li.items{
+			display: block;
+			color: white;
+			text-decoration: none;
+		}
+
+		li a:hover {
+			background-color: #111111;
+		}				
