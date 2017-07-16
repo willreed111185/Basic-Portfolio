@@ -35,9 +35,18 @@ li.pagelinks{
 	display: inline;
 	font-family: Arial;
 }
+a:link {
+    text-decoration: none;
+}
 a:visited{
 	color: #777777;
 	text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: none;
 }
 div.centerPage{
 	position: fixed;
@@ -64,7 +73,10 @@ p.textBody{
 }
 img.pageImg{
 	max-height:200px;
+	max-width: 45%;
 	float: left;
+	border: solid white;
+	border-width: 10px;
 }
 div.connectNote{
 	background-color: white;
