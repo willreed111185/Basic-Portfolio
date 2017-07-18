@@ -28,12 +28,13 @@ h1.nameline{
 ul.pagelinks{
 	height:20px;
 	position: absolute;
-	right: 100px;
+	right: 200px;
 	bottom: 0px;
 }
 li.pagelinks{
 	display: inline;
 	font-family: Arial;
+	padding:10px;
 }
 a:link {
     text-decoration: none;
@@ -60,6 +61,7 @@ div.mainNote{
 	width: 650px;
 	background-color: white;
 	padding:10px;
+	overflow-y:scroll;
 }
 h2.pageName{
 	color: #4aaaa5;
