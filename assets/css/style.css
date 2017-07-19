@@ -3,6 +3,7 @@ body{
 	background-image: url("../images/GPlayBkg.png");
 	position: fixed;
 	width: 960px;
+	overflow: auto;
 }
 div.topPage{
 	position:fixed;
@@ -61,7 +62,7 @@ div.mainNote{
 	width: 650px;
 	background-color: white;
 	padding:10px;
-	overflow-y:scroll;
+	overflow-y:auto;
 }
 h2.pageName{
 	color: #4aaaa5;
